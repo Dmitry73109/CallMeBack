@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    block-size: cover;
+    background-color: aliceblue;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0 5px 10px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 12px 12px;
+    border-radius: 100px;
+    background-color: green;
+  }
+
+  .exit{
+    background-color: red;
+    padding: 12px 19px;
+  }
+
+.users{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.user-tile {
+    width: 50%;
+    height: 80%;
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.user-tile h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.user-tile p {
+    color: #888;
+}
